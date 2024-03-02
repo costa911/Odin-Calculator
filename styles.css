@@ -5,6 +5,8 @@ body {
     align-items: center;
     height: 100vh;
     background-color: darkgray;
+    background-image: url(./background.jpg);
+    background-size: cover;
 }
 
 #calculator {
