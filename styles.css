@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: darkgray;
+}
+
+#calculator {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 20px;
+}
+
+#display {
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: rgb(179, 158, 158);
+    color: whitesmoke;
+}
+
+#keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+button:active {
+    background-color: lightgray;
+}
+
+.operator-btn {
+    background-color: bisque;
+    color: black;
+}
+
+
+
+.myavatar {
+    width: 100px;
+    /* Adjust the width as needed */
+    height: 100px;
+    /* Adjust the height as needed to maintain aspect ratio */
+    border-radius: 50%;
+    /* This creates a round shape */
+    border: 2px solid #ffc107;
+    /* Add a border around the image with a food-inspired color */
+    object-fit: cover;
+    /* This ensures the image fills the space while maintaining aspect ratio */
+}
